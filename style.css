@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.contaner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(104, 104, 104); */
+    
+}
+nav{
+    display: flex;
+    /* width: 84%; */
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+  
+  
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    /* background-color: rgb(104, 104, 104); */
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bold; 
+    /* background-color: rgb(102, 101, 101); */
+    padding-bottom: 100px;
+}
+nav ul li a:hover{ color: rgb(250, 8, 8);
+   
+} 
+.details{
+    margin: 5%;
+    padding: 5%;
+    /* background-color: rgb(248, 245, 245); */
+}
+.details h1{
+    font-size: 50px;
+    color: rgb(248, 7, 7);
+    margin-bottom: 20px;
+    /* background-color: rgb(104, 104, 104); */
+}
+span{
+    color: skyblue;
+}
+.details p{
+    color: rgb(247, 17, 17);
+    line-height: 22px;
+}
+.details a{
+    background: #f3eeee;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(243, 13, 13);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    /* background-color: rgb(252, 248, 248); */
+}
+.images img{
+    border-radius: 50px;
+    box-shadow: 10px 10px 100px rgb(161, 114, 114);
+    height: 120%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+    /* background-color: rgb(248, 244, 244); */
+}
+.images:hover .deep{
+    left:45%;
+    /* background-color: rgb(253, 249, 249);   */
+}
+footer{
+    color: skyblue;
+}
+.footer{
+    display: flex;
+    list-style-type: none;
+}
+.footer li{
+    margin: 20px;
+}
+#contact a{
+    text-decoration: none;
+    color: skyblue;
+}
+
